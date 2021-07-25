@@ -1,0 +1,19 @@
+{
+    "envId": "hello-cloudbase-1glxi4533adbba3b",
+    "version": "2.0",
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "functionRoot": "./functions",
+    "functions": [],
+    "framework": {
+        "name": "scusimony-001",
+        "plugins": {
+            "vuepress": {
+                "use": "@cloudbase/framework-plugin-website",
+                "inputs": {
+                    "buildCommand": "npm run build",
+                    "outputPath": ".vuepress/dist"
+                }
+            }
+        }
+    }
+}
