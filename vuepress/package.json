@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "CloudBase Framework VuePress Example",
   "main": "index.js",
+  base:"./"
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",

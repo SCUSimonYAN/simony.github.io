@@ -4,6 +4,7 @@ module.exports = {
   head: [
     ["link", {rel: "icon", href:"/img/isko.png"}]
   ],
+  //base:"./",
   themeConfig: {
     logo: '/img/isko.png',
     nav: [
